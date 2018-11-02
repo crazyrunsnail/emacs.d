@@ -7,17 +7,23 @@
 (set-default-font "Menlo-13")
 
 ;;;
-(defun davino/org-mode()
-  "Customize org mode."
-  (progn)
-  (setq truncate-lines t)
-  (setq org-ellipsis "⤵")
-  )
-(add-hook 'org-mode 'davino/org-mode)
+;; (defun davino/org-mode()
+;;   "Customize org mode."
+;;   (progn
+;;     (setq org-ellipsis "⤵"))
+;;   )
+;; (add-hook 'org-mode-hook 'davino/org-mode)
+
+;; (defun davino/org-mode()
+;;   "Customize org mode."
+;;   (progn
+;;     (setq org-ellipsis "⤵"))
+;;   )
+;; (add-hook 'org-mode-hook 'davino/org-mode)
 
 
-;; (setq truncate-lines t)
-;; (setq org-ellipsis "⤵")
+
+(setq org-ellipsis "⤵")
 
 ;;; org-bullets
 (require 'org-bullets)
